@@ -6,7 +6,7 @@ local Window = OrionLib:MakeWindow({
     Name = "SMN'S HUB",
     HidePremium = false,
     SaveConfig = true,
-    ConfigFolder = "SMNSHubConfig",
+    ConfigFolder = "BloxFruitConfig",
     IntroEnabled = true,
     IntroText = "Welcome to SMN'S HUB",
 })
@@ -177,4 +177,11 @@ OtherScriptsSection:AddButton({
             Name = "W-Azure",
             Content = "Executing W-Azure...",
             Image = "rbxassetid://4483345998",
-           
+            Time = 5
+        })
+        executeScript()
+    end
+})
+
+-- Finishing the script
+OrionLib:Init()
